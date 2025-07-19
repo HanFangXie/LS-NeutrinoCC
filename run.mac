@@ -1,0 +1,11 @@
+# 初始化物理过程
+/run/initialize
+
+# 设置输出控制（可选）
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+#  批量运行（比如 1000个事件）
+/run/beamOn 1000000000
